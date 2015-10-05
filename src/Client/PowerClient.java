@@ -14,7 +14,8 @@ public class PowerClient {
 
     public static void main(String[] args) {
         try {
-            Power pow = (Power) Naming.lookup("rmi://localhost/power");
+            String url = "rmi://localhost/power";
+            Power pow = (Power) Naming.lookup(url);
             double res;
             double x = 12;
             int n = 3;
