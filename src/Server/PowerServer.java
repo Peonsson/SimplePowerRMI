@@ -13,6 +13,7 @@ public class PowerServer {
         try {
             PowerImpl pow = new PowerImpl();
             Naming.bind("power", pow);
+            System.out.println("Power initialized");
         } catch (Exception e) {
             System.err.println("Error initializing power: " + e.toString());
         }
