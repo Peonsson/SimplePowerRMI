@@ -8,6 +8,7 @@ import java.rmi.RemoteException;
  * At Kungliga Tekniska Högskolan (KTH) in Sweden.
  * Contact: johanp7@kth.se
  */
+
 public interface Power extends Remote {
     public double calcPower(double x, int n) throws RemoteException;
 }

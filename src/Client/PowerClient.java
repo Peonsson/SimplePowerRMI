@@ -1,7 +1,9 @@
 package Client;
 
 /**
- * Created by johanpettersson on /201510/05.
+ * Created by Johan Pettersson on 2015-10-05 21:39.
+ * At Kungliga Tekniska Högskolan (KTH) in Sweden.
+ * Contact: johanp7@kth.se
  */
 
 import Server.Power;

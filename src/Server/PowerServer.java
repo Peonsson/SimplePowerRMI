@@ -5,8 +5,11 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
 /**
- * Created by johanpettersson on /201510/05.
+ * Created by Johan Pettersson on 2015-10-05 21:39.
+ * At Kungliga Tekniska Högskolan (KTH) in Sweden.
+ * Contact: johanp7@kth.se
  */
+
 public class PowerServer {
 
     public static void main(String[] args) {
